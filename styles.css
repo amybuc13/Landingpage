@@ -110,18 +110,66 @@
 .travelimagecontainer {
     display: flex;
     justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #F9FAF8;
-    padding-bottom: 70px;
-    padding-left: 160px;
     flex-direction: row;
+    padding-left: 10%;
+    padding-bottom: 10%;
+    padding-right: 12%;
+    padding-top: 5%;
+    margin: 0;
 }
 
-.text {
+.japantextimage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.austextimage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.swedentextimage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.italytextimage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
     color: #1f2937;
+    font-style: light italic;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 370px;
-    padding-top: 20px;
+    padding: 5%;
+    padding-top: 50px;
+    margin: 0;
+}
+
+.quoteperson {
+    background-color: #E5E7EB;
+    color: #1f2937;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 70%;
 }
